@@ -54,9 +54,15 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #ff2f7d, #7c2cff);
+    background: none;
     box-shadow: 0 0 24px rgba(255, 47, 125, 0.5);
-    font-size: 22px;
+    overflow: hidden;
+}
+
+.cherry-logo {
+    width: 52px;
+    height: 52px;
+    display: block;
 }
 
 .brand h1 {
