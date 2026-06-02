@@ -372,7 +372,15 @@ footer {
         width: 46px;
         height: 46px;
         border-radius: 16px;
-        font-size: 19px;
+        background: none;
+        box-shadow: 0 0 20px rgba(255, 47, 125, 0.45);
+        overflow: hidden;
+    }
+
+    .cherry-logo {
+        width: 46px;
+        height: 46px;
+        display: block;
     }
 
     .hero h2 {
